@@ -1,0 +1,233 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"></meta>
+    <meta content="width=device-height, initial-scale=1.0" name="viewport"></meta>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina Script" rel="stylesheet"></link>
+<style>
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
+    font-family: 'Aguafina Script';font-size: 32pxa;
+
+}
+#as {
+    font-family: 'Aguafina Script';font-size: 92px;
+}
+
+#ad {
+    font-family: 'Aguafina Script';font-size: 52px;
+}
+
+ol{
+list-style-type: none;
+float:left;
+margin-top: 25px;
+}
+ol li{
+    display: inline-block;
+}
+ol li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 4px  20px;
+  border: 2px solid rgb(0, 0, 0);
+}
+ol li a:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+ul{
+  list-style-type: none;
+float: right;
+margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 4px  20px;
+  border: 2px solid #fff;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+</style>
+</head>
+<body>
+ 
+<ul>
+  <li><a href="https://subdjvhfvza2.blogspot.com/2021/10/document-body-background-color-cyan.html">home</a></li>
+  <li><a href="https://subdjvhfvza2.blogspot.com/2021/10/ak-sharma.html">about</a></li>
+</ul>
+   <ol>
+     <li><a href="#">  <span onclick="openNav()" style="cursor: pointer; font-size: 30px;">☰ Regester </span></a></li>
+   </ol>
+
+<br />
+<div class="overlay" id="myNav">
+    <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
+    <div class="overlay-content">
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdVgMtwQN2xwy7IZsGuA1lNc6q2SCR4MztxHB5w_J3BOEA51Q/formResponse" data-first-entry="0" data-is-first-page="true" data-last-entry="3" data-response="%.@.[]]" data-shuffle-seed="1715592056655925296" id="mG61Hd" jsmodel="TOfxwf Q91hve" method="POST" target="_self">
+ <table border="3" style="height: 500pxpx; width: 70%px;">       <tr>
+      <th style="color: yellowgreen;">name</th>
+      <th><input name="entry.578078031" placeholder="name" type="text" /></th>
+  </tr>
+<tr>
+    <th style="color: yellowgreen;">address</th>
+    <th><input name="entry.1507690217" placeholder="address" type="text" /></th>
+</tr>
+<tr>
+  <th style="color: yellowgreen;">phone no</th>
+  <th><input name="entry.247573656" placeholder="phone no" type="text" /></th>
+</tr>
+<tr>
+  <th style="color: yellowgreen;">add</th>
+  <th><input type="submit" /></th>
+</tr>
+</table>
+          <br />
+         </form> 
+    </div>
+  </div>
+
+<iframe frameborder="0" onload="if(submitted) {window.location='https://www.google.com'}" src=""></iframe>
+
+<script>
+
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+    <center><h1 id="as" style="color: yellow;"> AK Sharma</h1></center>
+     
+    <style>
+      
+        
+        
+        .overlay {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+background-image: url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
+          overflow-x: hidden;
+          transition: 0.5s;
+        }
+        
+        .overlay-content {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+        }
+        
+        .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .overlay a:hover, .overlay a:focus {
+          color: #f1f1f1;
+        }
+        
+        .overlay .closebtn {
+          position: absolute;
+          top: 20px;
+          right: 45px;
+          font-size: 60px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .overlay a {font-size: 20px}
+          .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+          }
+        }
+        </style>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjO6xC7T0I/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+  var sheetName = 'Sheet1'
+		var scriptProp = PropertiesService.getScriptProperties()
+
+		function intialSetup () {
+		  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+		  scriptProp.setProperty('key', activeSpreadsheet.getId())
+		}
+
+		function doPost (e) {
+		  var lock = LockService.getScriptLock()
+		  lock.tryLock(10000)
+
+		  try {
+			var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
+			var sheet = doc.getSheetByName(sheetName)
+
+			var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+			var nextRow = sheet.getLastRow() + 1
+
+			var newRow = headers.map(function(header) {
+			  return header === 'timestamp' ? new Date() : e.parameter[header]
+			})
+
+			sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow])
+
+			return ContentService
+			  .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+			  .setMimeType(ContentService.MimeType.JSON)
+		  }
+
+		  catch (e) {
+			return ContentService
+			  .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e }))
+			  .setMimeType(ContentService.MimeType.JSON)
+		  }
+
+		  finally {
+			lock.releaseLock()
+		  }
+		}
+            
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+  aside{
+    background-color: #000;
+    color: white;
+  }
+</style>
+
+
+</body>
+</html>
